@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="flex flex-row justify-between">
       <div>
-        <p class="invisible lg:visible text-white font-bold ml-8">YOU PICKED</p>
+        <p class="invisible lg:visible text-white font-bold ml-7">YOU PICKED</p>
         <Paper
           marginClasses="mt-10"
           v-if="selected === 'paper'"
@@ -50,7 +50,7 @@
         </button>
       </div>
       <div>
-        <p class="invisible lg:visible text-white font-bold -ml-8">
+        <p class="invisible lg:visible text-white font-bold">
           THE HOUSE PICKED
         </p>
         <NotSelected marginClasses="mt-10" v-if="!house" />
