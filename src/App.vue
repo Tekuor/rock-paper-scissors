@@ -19,10 +19,10 @@
       </div>
     </div>
 
-    <div class="mt-24 w-full invisible lg:visible">
+    <div class="w-full invisible lg:visible" id="fixedbutton">
       <button
         @click="showModal = true"
-        class="float-right mr-8 text-white border-solid border-2 border-white rounded px-6 py-1"
+        class="float-right mr-8 mb-8 text-white border-solid border-2 border-white rounded px-6 py-1"
       >
         RULES
       </button>
@@ -172,5 +172,11 @@ export default {
   100% {
     transform: scale(1);
   }
+}
+
+#fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
 </style>
