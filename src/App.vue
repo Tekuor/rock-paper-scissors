@@ -116,7 +116,7 @@ export default {
         case "paperrock":
           this.result = "win";
           this.score = this.score + 1;
-          this.cookies.set("score", this.score, 0);
+          this.cookies.set("score", this.score, 7200);
           break;
         case "scissorsrock":
         case "paperscissors":
